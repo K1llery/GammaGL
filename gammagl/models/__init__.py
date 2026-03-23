@@ -66,6 +66,7 @@ from .rohehan import RoheHAN
 from .gcil import GCILModel, LogReg 
 from .sgformer import SGFormerModel
 from .adagad import PreModel, ReModel
+from .nodeid import NodeIDGNN
 
 __all__ = [
     'HeCo',
@@ -141,6 +142,7 @@ __all__ = [
     'sgformer',
     'PreModel',
     'ReModel'
+    , 'NodeIDGNN'
 ]
 
 classes = __all__
